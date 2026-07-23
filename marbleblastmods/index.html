@@ -239,7 +239,6 @@ body {
   </div>
   <li><a href="../contact/index.html">Contact</a></li>
   <li><a onclick="about()">About</a></li>
-  <div align=right><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-8bCw9Wax7A7d51a5-9.gif' border='0' alt='free web counter'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=8bCw9Wax7A7d51a5'></script></div>
 </ul>
 <hr>
 <div style="background-color:white; margin:10px; text-align: center;">
@@ -326,6 +325,8 @@ body {
   </div>
 </div>
 
+
+
 <div class="secondtext">
   <h3 style="color:white;">Visitors by country: (if you can't see it than please disable your adblocker)</h3>
   <a href="https://info.flagcounter.com/bzw9"><img src="https://s01.flagcounter.com/count2/bzw9/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
@@ -335,4 +336,15 @@ body {
 function about() {
   alert("Just read the first line of the homepage man");
 }
+
+
+function mbnext() {
+  let text = "This build of Marble Blast Next runs on the modern Torque3D, so you may encounter code issues and unoptimization.\nAre you sure you want to download Marble Blast Next?";
+  if (confirm(text) == true) {
+    open("https://www.mediafire.com/file/kdmaoqhbinqjzae/Marble_Blast_Next_July_6_2017.zip/file");
+  } else {
+  }
+  document.getElementById("demo").innerHTML = text;
+}
 </script>
+
